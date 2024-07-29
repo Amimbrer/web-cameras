@@ -21,7 +21,14 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
-  },
-  "include": ["public/src"]
+    "noFallthroughCasesInSwitch": true,
+
+    /* Alias */
+    "baseUrl": "./src",
+    "paths": {
+      "@core/*": ["modules/core/*"],
+      "@auth/*": ["modules/auth/*"],
+      "@assets/*": ["assets/*"]
+    }
+  }
 }
