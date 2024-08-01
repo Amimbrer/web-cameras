@@ -19,7 +19,7 @@ export const AuthRoutes = () => {
                 }
             />
 
-            <Route path="*" element={<div>Not Found auth</div>} />
+            <Route path="*" element={<div>Not Found 2</div>} />
         </Routes>
     )
 }

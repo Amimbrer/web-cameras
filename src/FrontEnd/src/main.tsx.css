@@ -1,0 +1,42 @@
+:root {
+  /* Colors palette */
+  --color-primary-50: #f0f7fe;
+  --color-primary-100: #deebfb;
+  --color-primary-200: #c4def9;
+  --color-primary-300: #9bc8f5;
+  --color-primary-400: #6cabee;
+  --color-primary-500: #4f8fe8;
+  --color-primary-600: #356fdb;
+  --color-primary-700: #2c5bc9;
+  --color-primary-800: #294ba4;
+  --color-primary-900: #264282;
+  --color-primary-950: #1c2a4f;
+
+  /* Paddings */
+  --padding-sm: 0.5rem;
+  --padding-md: 1rem;
+  --padding-lg: 2rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  height: 4rem;
+  padding: 1em;
+  background-color: var(--color-primary-600);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 3px 30px;
+  padding: var(--padding-lg);
+}
+#root {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding: var(--padding-lg);
+}

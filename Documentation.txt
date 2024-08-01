@@ -3,6 +3,10 @@ https://www.youtube.com/watch?v=Mm6_DlO5vvs
 
 https://github.com/expo/expo-template-default/tree/main/app
 
+
+Diseño
+https://dribbble.com/shots/23311322-Ocamba-website-UI-UX
+
 - context folder
 - we dont need store folder
 - assets ->  /brand, images/icons, images/common,

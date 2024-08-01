@@ -19,7 +19,8 @@ export const CoreRoutes = () => {
                 element={
                     <ProfilePage/>
                 }
-                />
+                />            <Route path="*" element={<div>Not Found auth</div>} />
+
         </Routes>
     )
 }

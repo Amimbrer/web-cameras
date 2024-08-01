@@ -1,6 +1,8 @@
 import { Header, Footer, Main} from "@core/index";
 
-export const MainLayout = () => {
+import './Layout.tsx.css'
+
+export const Layout = () => {
   return (
    <>
     <Header />

@@ -1,6 +1,9 @@
+import './Header.tsx.css'
 
 export const Header = () => {
   return (
-    <header>Header</header>
+    <header>
+      
+    </header>
   )
 }

@@ -1,6 +1,6 @@
 import { Header, Footer, Main} from "@core/index";
 
-export const MainLayout = () => {
+export const Layout = () => {
   return (
     <>
       <Header />
