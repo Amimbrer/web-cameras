@@ -1,5 +1,5 @@
 import './Switch.tsx.css'
-import {useCamarasStore} from '@core/index'
+import {useCamarasStore} from '@cameras/index'
 
 
 type SwitchProps =  {

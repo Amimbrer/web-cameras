@@ -28,7 +28,12 @@
     "paths": {
       "@core/*": ["modules/core/*"],
       "@auth/*": ["modules/auth/*"],
+      "@cameras/*": ["modules/cameras/*"],
+      "@shared/*": ["shared/*"],
       "@assets/*": ["assets/*"]
-    }
+    },
+
+    /* Tests */
+    "types": ["vitest/globals", "@testing-library/jest-dom"]
   }
 }

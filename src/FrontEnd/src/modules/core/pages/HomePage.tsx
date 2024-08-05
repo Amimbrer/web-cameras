@@ -1,6 +1,5 @@
-import { FullCameras } from '@core/components/FullCameras';
-import { IndividualCameras } from '@core/components/IndividualCameras';
-import {useCamarasStore} from '@core/index'
+import { useCamarasStore, FullCameras, IndividualCameras } from '@cameras/index'
+
 
 export const HomePage = () => {
   const {switchValue} = useCamarasStore();

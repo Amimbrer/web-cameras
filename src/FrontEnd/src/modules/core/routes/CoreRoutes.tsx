@@ -13,14 +13,15 @@ export const CoreRoutes = () => {
                 element={
                     <HomePage/>
                 }
-                />
+            />
             <Route 
                 path='/profile' 
                 element={
                     <ProfilePage/>
                 }
-                />            <Route path="*" element={<div>Not Found auth</div>} />
+            />            
 
+            <Route path="*" element={<div>Not Found core</div>} />
         </Routes>
     )
 }
